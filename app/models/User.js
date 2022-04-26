@@ -7,6 +7,24 @@ class User {
     this.dateCreated = new Date()
     this.lastUpdated = new Date()
   }
+  setUsername(username) {
+    this.username = username
+  }
+  setBio(bio) {
+    this.bio = bio
+  }
+  getUsername() {
+    return this.username
+  }
+  getBio() {
+    return this.bio
+  }
+  getDateCreated() {
+    return this.dateCreated
+  }
+  getLastUpdated() {
+    return this.lastUpdated
+  }
 }
 
 module.exports = User
